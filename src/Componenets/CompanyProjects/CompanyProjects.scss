@@ -1,0 +1,129 @@
+     .companyProjects{
+        
+            position: relative;
+          margin-bottom: 100px;
+h3{
+    font-size: 32px;
+line-height: 48px;
+text-align: justify;
+margin: 40px 0 0px 20px;
+color: #000000;
+}      
+              
+        }
+
+.swiper{
+   
+    
+   
+    .swiper-button-next,.swiper-button-prev {
+        position: absolute;
+        top: 40%;
+        right: -1%;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 9999999;                
+        border: none;
+       width: 45px;
+       height: 45px;
+       border-radius: 50%;
+       background-color: #FFFFFF;
+        transition: all .5s;
+        i{
+            font-size: 20px;
+            color: #06B2BB;
+        }
+
+    }
+    .swiper-button-prev{
+left: -1%;
+    }
+
+    .swiper-button-prev:after ,.swiper-button-next:after{
+        content:"";
+        text-transform: none;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        
+        
+        
+    }
+    .swiper-button-disabled{
+        opacity: 1;
+    }
+   
+    .project{
+       
+.image{
+    position: relative;
+    width: 321.66px;
+        height: 333px;
+        padding:0px 10px;
+     overflow: hidden;
+     
+    img{
+        width: 100%;
+        height: 100%;
+}
+.favorite{
+    position: absolute;
+    top: 3%;
+    right:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+    i{
+       font-size: 27px;
+       color: #06B2BB;
+    }
+   }
+      
+           
+        }
+
+        .design-info{
+            text-align: left;
+            font-style: Medium;
+            font-size: 24px;
+            line-height: 36px;
+            line-height: 100%;
+            color: #000000;
+            font-weight: 500;
+            margin: 20px 0 20px 0;
+            padding-left: 10px;
+        }
+        span{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #898989;
+            padding-left: 10px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #06B2BB;
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+     
+
+       } 
+       
+   
+   
+      
+}

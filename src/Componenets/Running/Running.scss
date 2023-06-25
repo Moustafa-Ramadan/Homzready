@@ -1,0 +1,55 @@
+.menu-services{
+    width: 100%;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index:9999999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .line{
+        width: 100%;
+height: 11px;
+background-color: #FDD219;
+    }
+   .menu{
+    width: 60%;
+    margin: 0 auto;
+    
+    .service{
+        h3{
+            color: #06B2BB;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+        
+            p{
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 16px;
+                 text-align: justify;
+                 color: #898989;
+              } 
+
+    img{
+        width:46.66px ;
+height: 41.51px;
+
+    }
+    }
+    span{
+        text-align: center;
+        display: block;
+        color: #06B2BB;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 40px 0;
+    }
+
+   } 
+   
+ }

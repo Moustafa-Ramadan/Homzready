@@ -1,0 +1,161 @@
+
+.Home{
+            font-family: 'Poppins';
+        font-style: normal;
+        a{
+            text-decoration: none;
+           
+        }
+        
+.layer{
+    width: 100%;
+    position: relative;
+    height: 531px;
+background: url(../../images/background.png);
+    background-position: center;
+    background-size: cover;
+     .discription{
+        position: absolute;
+        width: 418px;
+        height: 340px;
+        left: 188px;
+        top: 96px;
+        background-color: #06B2BB;
+        border-radius: 10px;
+        padding: 33px 48px ;
+    .info{
+        i{
+            font-size: 32px;
+        }
+        p{
+            font-weight: 500;
+font-size: 20px;
+line-height: 16px;
+        }
+        .homes-p{
+            
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+
+color: #FFFFFF;
+        }
+        button{
+            width: 176px;
+           height: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #2F2E41;
+        }
+    }
+    }
+}
+   
+
+.design-info{
+    text-align: left;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 100%;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+h2{
+    text-align: center;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 16px;
+color: #06B2BB;
+margin-bottom: 80px;
+}
+
+.projects{
+    padding: 120px 0 60px 0;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+
+     
+        }
+    a{
+        margin: 0 auto;
+        .btn-design{
+            width: 308px;
+height: 79px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+background: #06B2BB;
+border-radius: 15px;
+border: none;
+margin: 0 auto;
+
+     }
+    }
+   
+    }
+
+.signupForm{
+   .image{
+
+    background: url(../../images/img22.png);
+    background-position: center;
+    background-size: cover;
+   }
+    .signup{ 
+        background: #FDD219;
+        height: 405px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+        form{
+            display: flex;
+            align-content: center;
+            width: 517px;
+            height: 57px;
+            .email-input{
+                border: none;
+                padding: 10px;
+                width: 517px;
+                height: 57px;
+                color: #898989;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            button{
+                height: 57px;
+                padding: 10px 30px;
+                font-weight: 500;
+                font-size: 24px;
+                color: #FFFFFF;
+                background-color: #06B2BB;
+                border: none;
+            }
+        }
+        
+    }
+}
+
+}
+

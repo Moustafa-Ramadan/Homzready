@@ -1,0 +1,325 @@
+.provider{
+    width: 95%;
+    margin: 100px auto;
+    .container-fluid{  
+font-family: 'Poppins';
+font-style: normal;
+     .row{
+        margin-bottom: 100px;
+        .col-md-4{
+            .Filter{
+                background: rgba(6, 178, 187, 0.05);
+               border-radius: 20px;
+               padding: 40px 15px;
+                h2{
+                    cursor: pointer;
+                    padding: 15px 37px;
+                    text-align: start;
+              font-weight: 600;
+              font-size: 20px;
+              line-height:30px;
+              border-radius: 10px;
+                }
+                h3{
+                    font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: #343434;
+                margin-bottom: 30px;
+                }
+                .form-check{
+                    margin: 10px 0;
+                    input{
+                        margin-right: 20px;
+                    }
+                    label{
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;                     
+                        color: #343434;
+                    }
+                }
+                .location{
+                    padding: 30px 0;
+                    border-top: 1px solid #CACACA;
+                    border-bottom: 1px solid #CACACA;
+                }
+
+                .Installments{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+
+                }
+                
+                .Warranty{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+                }
+               
+                .Types{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+             
+                }
+                .Service{
+                    padding: 30px 0;
+                    p{
+                        font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #343434;
+    padding: 0;
+                    }
+             .dropdown-menu{
+                border: none;
+           
+             }
+                }
+            }
+      
+        }
+
+            .col-md-8{
+              
+                .company{
+                    margin-bottom: 50px;
+.row{
+    margin-bottom: 0;
+    .col-md-3{
+        .logo{
+display: flex;
+justify-content: center;
+        }
+    }
+    
+    .col-md-9{
+        display: flex;
+        align-items: center;
+        .info{
+                width: 100%;   
+            .contact{
+                display: flex;
+                justify-content: space-between;
+                button{
+                   width: 45%; 
+                   font-weight: 600;
+                   font-size: 18px;
+                   line-height: 27px;                   
+                   color: #FFFFFF;
+                   border-radius: 5px;
+                }
+                .call{
+                    background: #06B2BB;
+                   
+                }
+                .chat{
+                    color: #06B2BB;
+                    border: 1px solid #06B2BB;
+
+                }
+            }
+        }
+        .design-info{
+            text-align: left;
+            font-style: Medium;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 16px;
+            color: #000000;
+        margin-bottom: 22px;
+        }
+        span{
+            
+            font-weight: 500;
+            font-size: 18.0019px;
+            line-height: 18px;
+            color: #06B2BB;
+            margin-bottom: 27px;
+        }
+        p{
+            
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #06B2BB;
+        }
+    }
+}
+                }
+
+                .company-info{
+                    margin:34px 0 0 0 ;
+                    padding: 0 0 41px 0; 
+                    border-bottom: 1px solid #E8E8E8;
+                }
+                h3{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #343434;
+                    margin-bottom: 24px;
+                }
+             
+                a{
+                    display: block;
+                    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #343434;
+    margin-bottom: 12px;
+                 }
+              .About{
+                // margin-left:50px ;
+                // padding: 0 0 41px 0; 
+                border-bottom: 1px solid #E8E8E8;
+                p{
+                    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #777777;
+                }
+         
+              }
+
+              .Services{
+                .service{
+                    display: flex;
+                    gap: 20px;
+                    button{
+                        
+                        padding:10px 15px;
+                    
+                        border-radius: 5.04px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 44px;
+                        color: #343434;
+                        border: none;
+                    }
+                    .design{
+                        background: #D6F5F7;
+                    }
+                    .Turnkey{
+                        background: #FFEEE0;
+                    }
+
+                }
+              }
+
+
+              .Installments{
+             p{
+                font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+color: #06B2BB;
+margin-bottom: 19px;
+             }
+             p{
+                font-size: 22px;
+             }
+           
+             .details{
+                font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: justify;
+color: #777777;
+            }
+            
+              }
+              .Fees{
+                
+             h3{
+                font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+color: #06B2BB;
+margin-bottom: 19px;
+             }
+       
+          
+            
+              }
+
+             .Registration{
+                a{
+                    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+
+                }
+             }
+            .Packages{
+                border-bottom: none;
+                .company-package{
+                    padding: 35px 30px;
+                    background: #FFFFFF;
+box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+margin-bottom: 25px;
+
+ .package{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 60px;
+                h5{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 16px;
+                    color: #06B2BB;
+                }
+
+                .cost{
+                    width: 15%;
+                    display: flex;
+                   
+                justify-content: space-between;
+                align-items: center;
+                
+                p{
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 16px;
+                    color: #2F2E41;
+                    margin-bottom: 0;
+                }
+                
+                }
+              }  
+                }
+             
+            }
+
+
+
+            .text-style{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: justify;
+                color: #06B2BB;
+                margin-bottom: 19px;
+            }
+            .details{
+                font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: justify;
+color: #777777;
+            }
+            }
+        }
+
+   
+
+        
+    }
+}
+

@@ -1,0 +1,48 @@
+
+
+.downloadApp{
+    padding: 120px 0 0 0 ;
+    position: relative;
+    margin-bottom: 100px;
+    .app{
+        width: 100%;
+        height: 327px;
+        background-color: #06B2BB;
+        // padding: 20px 0;
+       
+        p{
+            font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 46px;
+text-transform: uppercase;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+        }
+        
+        .AppStore{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .layerimage{
+            position: absolute;
+width: 362px;
+height: 437px;
+bottom:calc(0% + 11px) ;
+        }
+    }
+    .line{
+        width: 100%;
+        height: 11px ;
+        background-color: #FDD219;
+    }
+}
+    

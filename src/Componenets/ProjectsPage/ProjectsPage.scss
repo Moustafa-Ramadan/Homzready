@@ -1,0 +1,153 @@
+.project-page{
+ 
+    width: 95%;
+    margin: 0px auto; 
+    margin-bottom: 100px;
+    .container-fluid{
+    .header{
+        margin: 50px 0;
+        .headline{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #CACACA;
+             }
+             .line{
+            margin: 0 5px;
+            font-size: 40px;
+            color: #b4a1a1;
+             }
+             .project{
+             font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 36px;
+            color: #101010;
+             }
+    }    
+  
+     .row{
+        .col-md-3{
+            .Filter{
+                h2{
+                    text-align: start;
+       font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #000000;
+                }
+                h3{
+                    font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: #343434;
+                margin-bottom: 30px;
+                }
+                .form-check{
+                    margin: 10px 0;
+                    input{
+                        margin-right: 20px;
+                    }
+                    label{
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;                     
+                        color: #343434;
+                    }
+                }
+                .location{
+                    padding: 30px 0;
+                    border-top: 1px solid #CACACA;
+                    border-bottom: 1px solid #CACACA;
+                }
+
+                .Installments{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+
+                }
+                
+                .Warranty{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+                }
+               
+                .Types{
+                    padding: 30px 0;
+                    border-bottom: 1px solid #CACACA;
+             
+                }
+                .Service{
+                    padding: 30px 0;
+                    p{
+                        font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #343434;
+    padding: 0;
+                    }
+             .dropdown-menu{
+                border: none;
+           
+             }
+                }
+            }
+      
+        }
+            .col-md-9{
+                .results{
+                    margin-left: 20px;
+                  font-family: 'Jost';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 18px;
+             line-height: 26px;
+             color: #898989;
+                 }  
+
+                 .pagination{
+                
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 25%;
+                    margin: 20px auto;
+                    .direction{
+                        width: 28px;
+                        height: 28px;
+                        background-color: rgba(0, 0, 0, 0.04);
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        i{
+                           font-size: 16px;
+                            color: #7E8299;
+    
+                        }
+                    }
+                    .number{
+                        cursor: pointer;
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // background-color: #06B2BB;                    font-weight: 500;
+                       font-size: 16px;
+                        line-height: 19px;
+                        text-align: center;
+                         
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}
+

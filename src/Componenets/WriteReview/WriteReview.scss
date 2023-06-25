@@ -1,0 +1,175 @@
+.WriteReview{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 30px auto ;
+    width: 40%;
+    a{
+        text-decoration: none;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 11px;
+        text-align: center;
+    color: #000000;
+    }
+    p{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #898989;
+    margin-bottom: 32px;
+    }
+        
+    
+
+           .company{
+        margin-bottom: 32px;
+        a{
+            text-decoration: none;
+        }
+.row{
+.col-md-3{
+display: flex;
+align-items: center;
+justify-content: start;
+.logo{
+
+.image-logo{
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+}
+}
+
+.col-md-9{
+    display: flex;
+    align-items: center;
+
+        
+.info{
+display: flex;
+flex-direction: column;
+align-items: start;
+    padding-left: 15px;
+   .design-info{
+    text-align: left;
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 0;
+    
+    }
+    
+    
+    .location{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #06B2BB;
+    }
+    
+}
+
+}
+}
+    }
+
+  
+    h3{
+        font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+color: #06B2BB;
+margin-bottom: 39px;
+    }
+
+.Give-rating{
+    width: 60%;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 20px;
+    h4{
+        font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #000000;
+margin-bottom: 16px;
+    }
+
+    .rate{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 19px;
+        input[type='radio']{
+display: none;
+        }
+        .star{
+            cursor: pointer;
+            transition: color 200ms;
+            font-size: 18px;
+        }
+//         i{
+            
+// color: #FFB400;
+
+//         }
+    }
+   
+  
+}    
+
+    
+  
+.Behaviors{
+    border-bottom: none;
+    margin-bottom: 45px;
+}
+
+
+    .write-review {
+        margin-bottom: 55px;
+    h5{
+        font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #06B2BB;
+    }
+    form{
+        textarea{
+            background: #EDEBEB;
+            font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #898989;
+border-radius: 4px;
+        }
+    }
+    } 
+      
+    button{
+        width:100%;
+        height: 52px;
+background: #06B2BB;
+border-radius: 4px;
+border: none;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+    }
+}
+
+

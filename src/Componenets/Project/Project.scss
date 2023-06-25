@@ -1,0 +1,183 @@
+.project{
+    width: 95%;
+    margin: 50px auto;
+    .container-fluid{  
+font-family: 'Poppins';
+font-style: normal;
+     .row{
+        margin-bottom: 100px;
+        .col-md-6{
+            // padding-right: 30px;
+            .swiper{
+                // .swiper-pagination-clickable .swiper-pagination-bullet {
+                //     background: #06B2BB;
+                // }
+                
+  
+                .swiper-button-next,.swiper-button-prev {
+                    position: absolute;
+                    top: 50%;
+                    right:0%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    z-index: 9999999;                
+                    border: none;
+                   width: 45px;
+                   height: 45px;
+                   border-radius: 50%;
+                   background-color: #FFFFFF;
+                    transition: all .5s;
+                    i{
+                        font-weight: bolder;
+                        font-size: 20px;
+                    }
+            
+                }
+            
+                .swiper-button-prev:after ,.swiper-button-next:after{
+                    content:"";
+                    text-transform: none;
+                    letter-spacing: 0;
+                    font-variant: initial;
+                    line-height: 1;
+                    color: #06B2BB;
+                }
+                .project{
+            .image{
+                position: relative;
+                    // padding:0px 10px;
+                //  overflow: hidden;
+                 width: 600px;
+height: 600px;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+                 
+                img{
+                    width: 100%;
+                    height: 100%;
+            }
+            .favorite{
+                position: absolute;
+                top: 3%;
+                right:5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               width: 45px;
+               height: 45px;
+               border-radius: 50%;
+               background-color: #FFFFFF;
+                i{
+                   font-size: 27px;
+                   color: #06B2BB;
+                }
+               }
+                  
+                       
+                    }
+            
+                 
+            
+                   } 
+                   
+               
+               
+                  
+            }
+      
+        }
+
+            .col-md-6{
+                display: flex;
+                align-items: center;
+                .company{
+                    margin-bottom: 50px;
+                    padding-left: 30px;
+        .info{
+                width: 100%;  
+                border-bottom: 1px solid #E1E1E1; 
+         padding:20px 0 40px 0;
+        }
+
+        .design-info{
+            text-align: justify;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 16px;
+            color: #000000;
+        margin-bottom: 38px;
+        }
+        span{
+            
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 16px;
+            color: #06B2BB;
+        }
+        p{ 
+            font-weight: 400;
+font-size: 20.4167px;
+line-height: 23px;
+color: #343434;
+margin-bottom: 14px;
+        }
+        .Details{
+            margin-top: 32px;
+            h4{
+                font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+color: #343434;
+margin-bottom: 16px;
+            }
+            p{
+                font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: justify;
+color: #2F2E41;
+margin-bottom: 32px;
+            }
+            .contact{
+                display: flex;
+                justify-content: space-between;
+                button{
+                   width: 45%; 
+                   font-weight: 600;
+                   font-size: 18px;
+                   line-height: 27px;                   
+                   color: #FFFFFF;
+                   border-radius: 5px;
+                }
+                .call{
+                    background: #06B2BB;
+                   
+                }
+                .chat{
+                    color: #06B2BB;
+                    border: 1px solid #06B2BB;
+
+                }
+            }
+        }
+    
+
+}
+                }
+
+          
+
+
+        
+            }
+        }
+
+   
+
+        
+    }
+
+
