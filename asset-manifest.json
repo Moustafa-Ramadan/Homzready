@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Homzready/static/css/main.b2d6e0fc.css",
-    "main.js": "/Homzready/static/js/main.131d3247.js",
+    "main.css": "/Homzready/static/css/main.deb56269.css",
+    "main.js": "/Homzready/static/js/main.e75b8167.js",
     "static/media/img20.png": "/Homzready/static/media/img20.d657dd2bc3a2098b9ea1.png",
-    "static/media/iStock-991867390-Copy 2.svg": "/Homzready/static/media/iStock-991867390-Copy 2.568d5d61a65f656bc757542af877c6af.svg",
+    "static/media/background.png": "/Homzready/static/media/background.f1daecd8bc2ff827ffbe.png",
+    "static/media/loginPage.png": "/Homzready/static/media/loginPage.7a195b8ae1fef0a35687.png",
     "static/media/Frame 163.png": "/Homzready/static/media/Frame 163.ca30527e872fe88554d5.png",
     "static/media/img21.png": "/Homzready/static/media/img21.57799c147466cd809031.png",
     "static/media/fa-solid-900.ttf": "/Homzready/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
@@ -33,11 +34,11 @@
     "static/media/fa-v4compatibility.woff2": "/Homzready/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/Homzready/index.html",
     "static/media/Subtract.svg": "/Homzready/static/media/Subtract.3c1776f81c1fd719f4af07a3262aff5b.svg",
-    "main.b2d6e0fc.css.map": "/Homzready/static/css/main.b2d6e0fc.css.map",
-    "main.131d3247.js.map": "/Homzready/static/js/main.131d3247.js.map"
+    "main.deb56269.css.map": "/Homzready/static/css/main.deb56269.css.map",
+    "main.e75b8167.js.map": "/Homzready/static/js/main.e75b8167.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2d6e0fc.css",
-    "static/js/main.131d3247.js"
+    "static/css/main.deb56269.css",
+    "static/js/main.e75b8167.js"
   ]
 }
