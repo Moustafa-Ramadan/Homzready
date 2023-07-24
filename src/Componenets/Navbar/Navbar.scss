@@ -1,7 +1,6 @@
 @import "../../Style.scss";
 
 .navbar{    
-    font-family: 'Poppins';
 font-style: normal;
     background-color: white;
     color: #000;
@@ -307,6 +306,7 @@ color: #FFFFFF;
 //           
            ul{
             background-color: white;
+            z-index: 99999999999;
             li{
                 color:black;
                 font-weight: 500;

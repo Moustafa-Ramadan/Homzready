@@ -257,43 +257,68 @@ color: #000000;
              }
             .Packages{
                 border-bottom: none;
-                .company-package{
+//                 .company-package{
+//                     padding: 35px 30px;
+//                     background: #FFFFFF;
+// box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.07);
+// border-radius: 10px;
+// margin-bottom: 25px;
+
+//  .package{
+//                 display: flex;
+//                 justify-content: space-between;
+//                 align-items: center;
+//                 height: 60px;
+//                 h5{
+//                     font-weight: 600;
+//                     font-size: 20px;
+//                     line-height: 16px;
+//                     color: #06B2BB;
+//                 }
+
+//                 .cost{
+//                     width: 15%;
+//                     display: flex;
+                   
+//                 justify-content: space-between;
+//                 align-items: center;
+                
+//                 p{
+//                     font-weight: 400;
+//                     font-size: 24px;
+//                     line-height: 16px;
+//                     color: #2F2E41;
+//                     margin-bottom: 0;
+//                 }
+                
+//                 }
+//               }  
+//                 }
+                .accordion-item{
                     padding: 35px 30px;
                     background: #FFFFFF;
 box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.07);
 border-radius: 10px;
 margin-bottom: 25px;
 
- .package{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                height: 60px;
-                h5{
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 16px;
-                    color: #06B2BB;
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h5{
+        margin-bottom: 0px;
+    }
+    p{
+        font-weight: 400;
+    font-size: 24px;
+    line-height: 16px;
+    color: #2F2E41;
+        margin: 0px 20px 0px 0px;
+    }
+}
                 }
 
-                .cost{
-                    width: 15%;
-                    display: flex;
-                   
-                justify-content: space-between;
-                align-items: center;
-                
-                p{
-                    font-weight: 400;
-                    font-size: 24px;
-                    line-height: 16px;
-                    color: #2F2E41;
-                    margin-bottom: 0;
-                }
-                
-                }
-              }  
-                }
              
             }
 

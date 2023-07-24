@@ -132,7 +132,7 @@ export default function RunningServices() {
       
     </Swiper>
 
-  <Link to='/providers'>
+  <Link to='/AllRunningServices'>
   <button >Browse All Services</button>
       </Link>
   

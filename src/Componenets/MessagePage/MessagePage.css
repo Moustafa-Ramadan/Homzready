@@ -1,0 +1,398 @@
+.Home {
+    font-family: 'Poppins';
+    font-style: normal;
+  }
+  .Home .layer {
+    width: 100%;
+    position: relative;
+  }
+  .Home .layer img {
+    width: 100%;
+  }
+  .Home .layer .discription {
+    width: 418px;
+    height: 340px;
+    position: absolute;
+    left: 188px;
+    top: 265px;
+    background-color: #06B2BB;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .Home .layer .discription .info p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+  }
+  .Home .layer .discription .info .homes-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  .Home .Development-services {
+    padding: 120px 0;
+  }
+  .Home .Development-services .container h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 16px;
+    color: #06B2BB;
+    margin-bottom: 20px;
+  }
+  .Home .Development-services .container p {
+    width: 75%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #898989;
+    margin-bottom: 70px;
+  }
+  .Home .Development-services .container .interior-design {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .Home .Development-services .container .interior-design .interior {
+    padding: 40px 30px;
+    position: absolute;
+    top: 13%;
+    right:62%;
+  
+  }
+  .Home .Development-services .container .interior-design .interior .interior-text {
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 80px;
+  
+  }
+  .Home .Development-services .container .interior-design .interior .design-text {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0 0 5px 0;
+  }
+  .Home .Development-services .container .interior-design .interior span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+  }
+  .Home .Development-services .container .interior-design .interior a {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+  .Home .Development-services .container .interior-design img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .Home .Development-services .container .interior-design .design-info {
+    text-align: left;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 100%;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+  }
+  .Home .Development-services .container button {
+    background: #FFFFFF;
+    border: 1px solid #B5B5C3;
+    border-radius: 15px;
+    padding: 10px;
+    color: #06B2BB;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .Home .downloadApp {
+    padding: 120px 0 0 0;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .Home .downloadApp .app {
+    width: 100%;
+    height: 327px;
+    background-color: #06B2BB;
+  }
+  .Home .downloadApp .app p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    text-transform: uppercase;
+    /* Neutral/White */
+    color: #FFFFFF;
+  }
+  .Home .downloadApp .app .AppStore {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .Home .downloadApp .app .layer {
+    position: absolute;
+    width: 362px;
+    height: 437px;
+    bottom: calc(0% + 11px);
+  }
+  .Home .downloadApp .line {
+    width: 100%;
+    height: 11px;
+    background-color: #FDD219;
+  }
+  .Home .design-info {
+    text-align: left;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 100%;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+  }
+  .Home h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 16px;
+    color: #06B2BB;
+    margin-bottom: 80px;
+  }
+  .Home .projects {
+    padding: 120px 0 60px 0;
+  }
+  .Home .projects .container .project-design {
+    margin-bottom: 50px;
+  }
+  .Home .projects .container .project-design .project {
+    position: relative;
+  }
+  .Home .projects .container .project-design .favorite {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+  }
+  .Home .projects .container .project-design .favorite i {
+    font-size: 27px;
+    color: #06B2BB;
+  }
+  .Home .projects .container .project-design img {
+    margin-bottom: 10px;
+  }
+  .Home .projects .container .project-design .design-info {
+    text-align: left;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 100%;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+  }
+  .Home .projects .container .project-design span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.0019px;
+    line-height: 18px;
+    color: #06B2BB;
+  }
+  .Home .projects .container .project-design p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.7517px;
+    line-height: 18px;
+    color: #343434;
+  }
+  .Home .projects .btn-design {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #06B2BB;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 auto;
+    width: 20%;
+  }
+  .Home .Running-services {
+    padding: 120px 0;
+  }
+  .Home .Running-services .container .services-design {
+    margin-bottom: 50px;
+  }
+  .Home .Running-services .container .services-design img {
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  .Home .Running-services button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #06B2BB;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 auto;
+    width: 20%;
+    border: 1px solid #B5B5C3;
+  }
+  .Home .services {
+    padding: 120px 0 0 0;
+    margin-bottom: 100px;
+  }
+  .Home .services .service {
+    position: relative;
+  }
+  .Home .services .service .design-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+  }
+  .Home .services .service p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #272727;
+  }
+  .Home .services .service .btn-design {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #06B2BB;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .Home .services .line {
+    position: absolute;
+    left: 0%;
+    width: 48%;
+    bottom: 0;
+    background: #06B2BB;
+    height: 80%;
+  }
+  .Home .signupForm .image {
+    background: url(../../images/img22.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .Home .signupForm .signup {
+    background: #FDD219;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Home .signupForm .signup p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .Home .signupForm .signup form {
+    display: flex;
+    align-content: center;
+  }
+  .Home .signupForm .signup form .email-input {
+    border: none;
+    padding: 10px;
+    width: 517px;
+    height: 57px;
+    color: #898989;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Home .signupForm .signup form button {
+    height: 57px;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #06B2BB;
+    border: none;
+  }
+  .Home .Partners {
+    margin-bottom: 100px;
+    padding: 100px 0 0 0;
+  }
+  .Home .Partners .services-design {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .Home .Partners .services-design .col-md-3 {
+    height: 100%;
+  }
+  .Home .Partners .services-design .col-md-3 .partner {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #CACACA;
+  }
+  .Home .Partners .services-design .col-md-3 .partner .img1 {
+    width: 181px;
+    height: 45px;
+  }
+  .Home .Partners .services-design .col-md-3 .partner .img2 {
+    width: 147px;
+    height: 37px;
+  }
+  .Home .Partners .services-design .col-md-3 .partner .img3 {
+    width: 64px;
+    height: 92px;
+  }
+  .Home .Partners .services-design .col-md-3 .partner .img4 {
+    width: 243px;
+    height: 97px;
+  }
+  

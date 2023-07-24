@@ -1,34 +1,49 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "./Profile.scss"
+import Tgp from '../../images/TGP.png';
 
 
 
 export default function Profile(props) {
-  
+
+  const [image, setImage] = useState(false)
+  const inputref = useRef(null)
+  const handleImageClick=()=>{
+    inputref.current.click();
+  }
+
+  const uploadimage=(e)=>{
+    const file=e.target.files[0]
+    console.log(file)
+    setImage(e.target.files[0])
+  }
+
 return <>
 
-<div className="ProfileForm">
-  <div className="container-fluid ">
-    <div className="row">
 
-      <div className="col-md-12 ">
-
-
-      <div className='Profile-page '>
-    
-<div>
-  <h2>Profile Info</h2>
-  <p>Describe your company in details</p>
- 
-
-
- 
-  <div className='signup-form'>
-  
-      <form>
+<div className="profile">
+  <div className="container-fluid">
+   <div className="row">
+    <div className="col-md-12">
+      <div className="profilepage">
+        <h2>Profile Info</h2>
+        <p>Describe your company in details</p>
+        <div className="profile-info">
+        <form>
       <label htmlFor="image-input">Photo</label>
-      <input type="file" className="form-control image-input" id='image-input' />
+     <div >
+      {image?  <img src={URL.createObjectURL(image)} alt="company-logo" className='iamge' onClick={handleImageClick} />:
+      <div className='addimage'>
+      <i className="fa-solid fa-plus fa-2x" onClick={handleImageClick}></i>
+     
+      </div>}
+     
+       
+       <input type="file" className="form-control image-input" ref={inputref} id='image-input' onChange={uploadimage} />
+          
+     </div>
+     
 
 <label htmlFor="name-input">Full Name</label>
  <input type="text" placeholder='Enter Your Name' className='form-control' id='name-input' />
@@ -43,32 +58,16 @@ return <>
  <label htmlFor="location-input">Location</label>
  <input type="text" placeholder='Enter Your Location' className='form-control mb-5' id='location-input' />
       </form>
-      
-
-      
       <Link to='/home'>
       <button className='btn-login'>Continue</button>
 
       </Link>
-    
-  </div>
-
-
- 
-
-</div>
-
-</div>
-
-</div>
-
-   
-
+        </div>
+      </div>
     </div>
+   </div>
   </div>
-
 </div>
-
 
 
 

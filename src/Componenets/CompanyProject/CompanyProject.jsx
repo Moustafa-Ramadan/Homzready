@@ -2,6 +2,7 @@ import React, {  useState } from 'react'
 import { Link} from 'react-router-dom'
 import "./CompanyProject.scss"
 import img15 from '../../images/img15.png';
+import { useRef } from 'react';
 
 
 export default function CompanyProject(props) {
@@ -13,6 +14,37 @@ export default function CompanyProject(props) {
     setProjects((current => !current))
   
   };
+
+  // const images=[
+  //   {
+  //     image:"../../images/img15.png"
+  //   },
+  //   {
+  //     image:"../../images/img15.png"
+  //   },
+  //   {
+  //     image:"../../images/img15.png"
+  //   },
+  //   {
+  //     image:"../../images/img15.png"
+  //   },
+  //   {
+  //     image:"images/img15.png"
+  //   }
+  // ]
+
+  const [image, setImage] = useState(false)
+  const inputref = useRef(null)
+  const handleImageClick=()=>{
+    inputref.current.click();
+  }
+
+  const uploadimage=(e)=>{
+    const file=e.target.files[0]
+    console.log(file)
+    setImage(e.target.files[0])
+  }
+
 
 return <>
 
@@ -80,9 +112,39 @@ return <>
           </form>
           
      <label htmlFor="ProjectDetails-input">Project Details</label>
-    <textarea name="review" placeholder='AAbout your project' id="ProjectDetails-input" cols="30" rows="4" className='form-control'></textarea>
+    <textarea name="review" placeholder='About your project' id="ProjectDetails-input" cols="30" rows="4" className='form-control'></textarea>
           
-    <label htmlFor="ProjectImages-input">Project Images</label>
+
+    <label htmlFor="image-input">Project Images</label>
+      <div className='container-fluid' >
+        <div className="row">
+
+{[...Array(9)].map((image,i)=>{
+     
+return(
+  <div className="col-md-3">
+<img src={img15} alt="company-logo" className='iamge-logo' onClick={handleImageClick} />
+  </div>
+
+)
+
+
+    })}
+     
+<div className="col-md-3">
+<div className='addimage'>
+      <i className="fa-solid fa-plus fa-2x" onClick={handleImageClick}></i>
+     
+      </div>
+       <input type="file" className="form-control image-input" ref={inputref} id='image-input' onChange={uploadimage} />
+          
+</div>
+
+        </div>
+     
+        
+
+     </div>
           <input type="file" className="form-control image-input mb-5" id='ProjectImages-input' />
           <Link to='/home'>
           <button className='btn-login'>Save</button>

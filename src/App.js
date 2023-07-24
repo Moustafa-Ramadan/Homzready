@@ -22,6 +22,10 @@ import CompanyPackages from './Componenets/CompanyPackages/CompanyPackages';
 import CompanyPaymentOffers from './Componenets/CompanyPaymentOffers/CompanyPaymentOffers';
 import CompanyProjects from './Componenets/CompanyProjects/CompanyProjects';
 import CompanyProject from './Componenets/CompanyProject/CompanyProject';
+import JoinAsProvider from './Componenets/JoinAsProvider/JoinAsProvider';
+import AllDevelopmentsServices from './Componenets/AllDevelopmentsServices/AllDevelopmentsServices';
+import AllRunningServices from './Componenets/AllRunningServices/AllRunningServices';
+import MessagePage from './Componenets/MessagePage/MessagePage';
 
 export default function App() {
  return <>
@@ -37,6 +41,7 @@ export default function App() {
   <Route path='/providers' element={<Providers/>}/>
   <Route path='/WriteReview' element={<WriteReview/>}/>
   <Route path='/profile' element={<Profile/>}/>
+
   <Route path='/company' element={<Company/>}>
   <Route path='companyServices' element={<CompanyServices/>}/>
   <Route path='companyInfo' element={<CompanyInfo/>}/>
@@ -45,6 +50,20 @@ export default function App() {
   <Route path='companyProject' element={<CompanyProject/>}/>
 
 
+  </Route>
+
+  <Route path='/AllDevelopmentServices' element={<AllDevelopmentsServices/>}/>
+  <Route path='/AllRunningServices' element={<AllRunningServices/>}/>
+  <Route path='/Messages' element={<MessagePage/>}/>
+
+
+
+  <Route path='/JoinAsProvider' element={<JoinAsProvider/>}>
+  <Route path='companyServices' element={<CompanyServices/>}/>
+  <Route path='companyInfo' element={<CompanyInfo/>}/>
+  <Route path='companyPackages' element={<CompanyPackages/>}/>
+  <Route path='companyPaymentOffers' element={<CompanyPaymentOffers/>}/>
+  <Route path='companyProject' element={<CompanyProject/>}/>JoinAsProvider
 
   </Route>
 

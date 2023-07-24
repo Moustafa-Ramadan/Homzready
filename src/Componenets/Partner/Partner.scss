@@ -1,27 +1,33 @@
 
 
 .Partners{
-    margin-bottom: 100px;
-    padding: 100px 0 0 0 ;
+    width: 95%;
+
+    margin: 0px auto 100px auto;
+    // margin-bottom: 100px;
+    padding: 0px 50px ; 
+    
 .services-design{
     justify-content: center;
     align-items: center;
     height: 100%;
-
+    
     .swiper{
-   
-        .Partner{
+
+  .Partner{
             height: 100%;
+            padding: 0 30px;
             .partner-logo{
-                width: 300px;
+                width: 250px;
                 height: 250px;
                 display: flex;
                 align-items: center;
+                z-index: 666;
                 justify-content: center;
                 border-right: 1px solid #CACACA;
                 
                 .img1{
-                    width: 181px;
+                    width: 160px;
                     height: 45px;
                 }
                 .img2{
@@ -42,17 +48,16 @@
    
         .swiper-button-next,.swiper-button-prev {
             position: absolute;
-            top: 40%;
-            right: -1%;
-            display: flex;
-        
+            top: 47%;
+            right: -8px;
+            display: flex;    
             justify-content: center;
             align-items: center;
             cursor: pointer;
             z-index: 9999999;                
             border: none;
-           width: 50px;
-height: 50px;
+           width: 40px;
+height: 40px;
            border-radius: 50%;
            background-color: #FFFFFF;
             transition: all .5s;
@@ -63,7 +68,7 @@ height: 50px;
     
         }
         .swiper-button-prev{
-    left: -1%;
+    left: 1%;
         }
     
         .swiper-button-prev:after ,.swiper-button-next:after{
@@ -151,9 +156,50 @@ height: 50px;
        
           
     }
+.right{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+.swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: 47%;
+    right: 1%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999999;                
+    border: none;
+   width: 40px;
+height: 40px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+    transition: all .5s;
+    i{
+        font-size: 20px;
+        color: #06B2BB;
+    }
 
+}
+.swiper-button-prev{
+left: 1%;
+}
 
+.swiper-button-prev:after ,.swiper-button-next:after{
+    content:"";
+    text-transform: none;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
     
+    
+    
+}
+.swiper-button-disabled{
+    opacity: 1;
+}
+
 }
 
 }
@@ -171,7 +217,7 @@ height: 50px;
     font-weight: 500;
     margin: 0 0 20px 0;
 }
-h2{
+.partaners-text{
     text-align: center;
     font-style: normal;
 font-weight: 500;

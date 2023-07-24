@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, {  useRef, useState } from 'react'
 import { Link} from 'react-router-dom'
 import "./CompanyInfo.scss"
 import message from '../../images/tabler_message.png';
@@ -6,6 +6,17 @@ import message from '../../images/tabler_message.png';
 
 export default function CompanyInfo(props) {
  
+  const [image, setImage] = useState(false)
+  const inputref = useRef(null)
+  const handleImageClick=()=>{
+    inputref.current.click();
+  }
+
+  const uploadimage=(e)=>{
+    const file=e.target.files[0]
+    console.log(file)
+    setImage(e.target.files[0])
+  }
 
 
 
@@ -32,8 +43,17 @@ return <>
   
       <form>
       <label htmlFor="image-input">Add Company Logo</label>
-      <input type="file" className="form-control image-input" id='image-input' />
-
+      <div >
+      {image?  <img src={URL.createObjectURL(image)} alt="company-logo" className='iamge' onClick={handleImageClick} />:
+      <div className='addimage'>
+      <i className="fa-solid fa-plus fa-2x" onClick={handleImageClick}></i>
+     
+      </div>}
+     
+       
+       <input type="file" className="form-control image-input" ref={inputref} id='image-input' onChange={uploadimage} />
+          
+     </div>
 <label htmlFor="name-input">Company Name</label>
  <input type="text" placeholder='Enter Your Name' className='form-control' id='name-input' />
 
@@ -56,7 +76,7 @@ return <>
  <label htmlFor="details-input">Details</label>
 <textarea name="review" placeholder='About your company' id="details-input" cols="30" rows="4" className='form-control'></textarea>
       
-      <Link to='/home'>
+      <Link to='companyPaymentOffers'>
       <button className='btn-login'>Save</button>
 
       </Link>

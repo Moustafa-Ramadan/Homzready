@@ -4,7 +4,8 @@ import "./Providers.scss";
 import Partner from '../Partner/Partner';
 import logo from '../../images/TGP.png';
 import { Link } from 'react-router-dom';
-import Footer from './../Footer/Footer';
+import { FaStar } from "react-icons/fa";
+import Footer from '../Footer/Footer';
 
 
 export default function Providers() {
@@ -134,7 +135,7 @@ export default function Providers() {
 </div>
 
 
-{/* <div className="Service">
+<div className="Service">
 <h3>Service</h3>
 <div class="dropdown">
   <p class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -245,7 +246,7 @@ export default function Providers() {
 </li>
   </ul>
 </div>
-</div> */}
+</div>
 
 
         </div>
@@ -288,7 +289,7 @@ export default function Providers() {
 
       
   </div>
- 
+  <button className='btn-design'>View All Projects</button>
 
       </div>
     </div>
@@ -332,7 +333,7 @@ export default function Providers() {
 
       
   </div>
- 
+  <button className='btn-design'>View All Projects</button>
 
       </div>
     </div>
@@ -376,7 +377,7 @@ export default function Providers() {
 
       
   </div>
- 
+  <button className='btn-design'>View All Projects</button>
 
       </div>
     </div>
@@ -420,7 +421,7 @@ export default function Providers() {
 
       
   </div>
- 
+  <button className='btn-design'>View All Projects</button>
 
       </div>
     </div>

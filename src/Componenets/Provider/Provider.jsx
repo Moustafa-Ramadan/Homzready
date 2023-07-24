@@ -76,7 +76,7 @@ export default function Provider() {
         }}
         onClick={handleClick}>Registration NO.</h2>
           
-          <h2 style={{
+          <h2 href="servicers" style={{
           backgroundColor: isActive ? 'white ' :'transparent',
           color: isActive ? '#06B2BB' : '#343434',
         }}
@@ -143,7 +143,7 @@ export default function Provider() {
 
   </div>
 
-  <div className="Offers company-info">
+  <div className="Offers company-info" href="servicers">
     <h3 className='text-style'>Offers </h3>
     <a >Details</a>
     <p className='details'>Lorem ipsum dolor sit amet consectetur. Massa faucibus scelerisque sed leo sed ornare. Sit lobortis egestas turpis mauris vitae montes id consectetur nisl. Urna et gravida nibh facilisi. Faucibus pellentesque  Lorem ipsum dolor sit amet consectetur. Massa faucibus scelerisque sed leo sed ornare. </p>
@@ -166,7 +166,7 @@ export default function Provider() {
 
   <div className="Packages company-info">
     <h3 className='text-style'>Packages </h3>
-   <div className='company-package'>
+   {/* <div className='company-package'>
      <div className="package">
        <h5>Silver</h5>
        <div className="cost">
@@ -176,29 +176,59 @@ export default function Provider() {
      </div>
      <p className='details'>Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra</p>
     
-   </div>
+   </div> */}
 
-   <div className='company-package'>
-     <div className="package">
-       <h5>Gold</h5>
-       <div className="cost">
-         <p>2000 LE</p>
-         <i className="fa-solid fa-arrow-down "></i>
-       </div>
-     </div>
-    
-   </div>
+  
 
-   <div className='company-package'>
-     <div className="package">
-       <h5>Platinum</h5>
-       <div className="cost">
-         <p>3000 LE</p>
-         <i className="fa-solid fa-arrow-down "></i>
+   <div className="accordion" id="accordionExample">
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <div className="info">
+        <h5 className='text-style'>silver</h5>
+        <p>1000 LE</p>
        </div>
-     </div>
-     
-   </div>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div className="accordion-body details">
+      Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <div className="info">
+        <h5 className='text-style'>Gold</h5>
+        <p>2000 LE</p>
+       </div>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body details">
+      Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra
+      
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <div className="info">
+        <h5 className='text-style'>Platinum</h5>
+        <p>3000 LE</p>
+       </div>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div class="accordion-body details">
+      Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra Lorem ipsum dolor sit amet consectetur. Porttitor faucibus massa sodales arcu justo. Etiam et gravida faucibus id at tempor interdum. Quis mi eu pharetra
+      
+      </div>
+    </div>
+  </div>
+</div>
 
   </div>
 

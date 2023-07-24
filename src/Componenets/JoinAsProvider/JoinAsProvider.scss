@@ -1,0 +1,56 @@
+
+.Company{
+  a{
+    text-decoration: none;
+  }
+  margin: 65px auto;
+  h3{
+    color: #000;
+font-size: 20px;
+margin-bottom: 16px;
+font-weight: 500;
+line-height: 16px;
+  }
+
+      .stablish-steps{
+        
+        width: 100%;
+        padding: 58px 0px;
+        background: rgba(6, 178, 187, 0.05);
+        border-radius: 20px;
+        display: flex ;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+
+.step{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ gap: 20px;
+  .correct{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+      font-size: 23px;
+    }
+  }
+ 
+  cursor: pointer;
+  width: 246px;
+  h2{
+    text-align: start;
+    font-size: 21px;
+font-weight: 600;
+margin-bottom: 4px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+      }
+}

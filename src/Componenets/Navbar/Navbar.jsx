@@ -19,6 +19,50 @@ const [navbarshow, setNavbarShow] = useState(true)
 const [menushow, setMenuShow] = useState(false)
 const [runningshow, setRunningShow] = useState(false)
 
+const DevelopmentClick = () => {
+  // 👇️ toggle
+  setMenuShow(current => !current);
+  
+
+ 
+  
+  if(runningshow){
+    setRunningShow(current => !current);
+    
+  }
+   
+};
+
+const RunningClick = (e) => {
+  // 👇️ toggle
+  
+  setRunningShow(current => !current);
+
+ 
+  
+  if(menushow){
+    setMenuShow(current => !current);
+    
+  }
+   
+};
+
+const handleClick = (e) => {
+  // 👇️ toggle
+  
+  if(runningshow){
+    setRunningShow(current => !current);
+    
+  }
+  else if(menushow){
+    setMenuShow(current => !current);
+    
+  }
+  
+
+   
+};
+
 
 let userData=  JSON.parse(localStorage.getItem('userData'))
 
@@ -53,7 +97,7 @@ if(data.message==="success"){
   }
 
   return <>
-  <nav className="navbar   navbar-expand-lg  ">
+  <nav className="navbar   navbar-expand-lg " onClick={handleClick}>
   <div className="container-fluid social">
   
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" onClick={()=>setNavbarShow(!navbarshow)} data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +166,10 @@ if(data.message==="success"){
    </div>
      
       <div className="right">
-      <div className='btn'>Join as Provider </div>
+        <Link to="JoinAsProvider">
+        <div className='btn'>Join as Provider </div>
+        </Link>
+      
       <button >En</button>
       </div>
     </div> }
@@ -131,11 +178,13 @@ if(data.message==="success"){
   
   <div className="container-fluid services ">
   
-    {navbarshow &&  <div className="collapse navbar-collapse  d-flex justify-content-between" id="navbarSupportedContent">
+    {/* {navbarshow &&  } */}
+  
+    <div className="collapse navbar-collapse  d-flex justify-content-between" id="navbarSupportedContent">
     <Link className="navbar-brand"  to="/"><img src={img1} alt="Homzready-logo" /></Link>
       <ul className="navbar-nav apps ms-0  mb-2 mb-lg-0">
       <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle menu-hover" href="#" role="button"  onMouseUpCapture={()=>setMenuShow(!menushow)} data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle menu-hover"  role="button"  onClick={DevelopmentClick} data-bs-toggle="dropdown" aria-expanded="false">
           Development Services
           
           </a>
@@ -149,7 +198,7 @@ if(data.message==="success"){
         </li> 
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" onMouseUpCapture={()=>setRunningShow(!runningshow)} aria-expanded="false">
+          <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" onClick={RunningClick} aria-expanded="false">
           Running Services
           </a>
           {/* <ul class="dropdown-menu">
@@ -200,7 +249,7 @@ if(data.message==="success"){
 <div className='user-notification'>
           
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" ><i className="fa-regular fa-envelope"></i></Link>
+            <Link className="nav-link active" aria-current="page" to='Messages' ><i className="fa-regular fa-envelope"></i></Link>
           </li>
           <li className="nav-item me-3">
             <Link className="nav-link active" aria-current="page" ><i className="fa-regular fa-bell"></i></Link>
@@ -209,14 +258,14 @@ if(data.message==="success"){
 </li>
        
       </ul>
-    </div> }
-  
-    
+    </div>
+   
   </div>
  
-  {runningshow && <Running/>}
-        
-   {menushow && <Development/>}
+  
+    {runningshow && <Running/>}
+    {menushow && <Development/>} 
+  
 
 </nav>
 

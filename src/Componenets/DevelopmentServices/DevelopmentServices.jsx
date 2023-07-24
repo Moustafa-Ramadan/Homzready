@@ -17,7 +17,7 @@ export default function DevelopmentServices() {
 
 {/* Development-services */}
 <div className="Development-services">
-  <div className="container">
+  <div className="container-fluid">
     <h2>Discover Our Development Services</h2>
     <p>We have a varieties of services that matches your home needs to make it beautiful and comfy and to have a better experience without the need to search a lot</p>
  <div className="interior-design row">
@@ -69,7 +69,7 @@ export default function DevelopmentServices() {
       </div>
  </div>
 
- <Link to='/providers'>
+ <Link to='/AllDevelopmentServices'>
  <button className='w-100'>Browse All Services</button>
  </Link>
  

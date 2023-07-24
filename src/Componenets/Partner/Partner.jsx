@@ -20,8 +20,8 @@ export default function Partner() {
 
 {/* Partner */}
 <div className="Partners">
-  <div className="container">
-    <h2>Our Partners</h2>
+  <div className="container-fluid">
+    <h2 className='partaners-text'>Our Partners</h2>
    <div className="services-design  ">  
    
 <Swiper
@@ -82,7 +82,7 @@ export default function Partner() {
 
            <SwiperSlide>
        <div className="Partner">
- <div className='partner-logo'>
+ <div className='partner-logo border-0'>
    <img src={sodic} alt="sodic" className='img1' />
  </div>
     
@@ -110,7 +110,16 @@ export default function Partner() {
 
       
     </Swiper>  
- 
+   
+    {/* <Swiper>  
+    <div className="swiper-button-next shadow-lg swiper-button-disabled right" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-163349fa5f106aa64" aria-disabled="true">
+           <i className="fa-solid fa-arrow-right fa-beat-fade"></i>
+           </div>
+
+               <div className="swiper-button-prev shadow-lg swiper-button-disabled left " tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-3fe621c7d3cdca101" aria-disabled="false">
+               <i className="fa-solid fa-arrow-left fa-beat-fade"></i>
+               </div>
+</Swiper>   */}
   </div>
     
  </div>

@@ -14,12 +14,36 @@ font-weight: 600;
      margin-bottom: 34px;
  }
         .CompanyInfo-form{
-          
+          .addimage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 130px;
+border:1px dashed #CACACA;
+border-radius: 10px;
+margin-bottom: 16px;
+cursor: pointer;
+i{
+color: #CACACA;
+font-weight: bolder;
+}
+            }
+            .iamge{
+                width: 130px;
+                height: 130px; 
+                border-radius: 10px;
+                margin-bottom: 16px;
+            }
+            .image-input{
+              display: none;
+            }
           input{
             margin-bottom: 16px;
             color: #898989;
             font-size: 14px;
             padding: 10px 20px;
+            margin-bottom: 16px;
           }
          
           label{

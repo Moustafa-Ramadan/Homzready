@@ -127,6 +127,8 @@ export default function ProjectsPage() {
 
 <div className="Service">
 <h3>Service</h3>
+
+{/* Development services */}
 <div class="dropdown">
   <p class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
    Development
@@ -134,54 +136,59 @@ export default function ProjectsPage() {
   
   <ul class="dropdown-menu">
     <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Home Maintenance
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Air Conditioning
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Pets Control
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Gardens Care
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
-  Pools Care  </label>
-</div>
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
+  Pools Care
+  </label>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Security Services
   </label>
-</div>
+ </div>
 </li>
+
+
+ 
   </ul>
 </div>
 
+{/* Running services */}
 <div class="dropdown">
   <p class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
    Running
@@ -189,53 +196,60 @@ export default function ProjectsPage() {
   
   <ul class="dropdown-menu">
     <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Home Maintenance
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Air Conditioning
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Pets Control
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Gardens Care
   </label>
-</div>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
-  Pools Care  </label>
-</div>
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
+  Pools Care
+  </label>
+ </div>
 </li>
 
 <li><div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="radio" name="Types" id="Apartment"/>
+  <label class="form-check-label" for="Apartment">
   Security Services
   </label>
-</div>
+ </div>
 </li>
+
+
+ 
   </ul>
 </div>
+
+
+
 </div>
 
 

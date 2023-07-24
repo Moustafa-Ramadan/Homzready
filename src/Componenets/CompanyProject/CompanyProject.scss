@@ -58,7 +58,30 @@
    }
      }
   
-    
+     .addimage{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      height: 130px;
+border:1px dashed #CACACA;
+border-radius: 10px;
+margin-bottom: 16px;
+cursor: pointer;
+i{
+color: #CACACA;
+font-weight: bolder;
+}
+      }
+      .iamge-logo{
+          width: 130px;
+          height: 130px; 
+          border-radius: 10px;
+          margin-bottom: 16px;
+      }
+      .image-input{
+        display: none;
+      }
   
      .btn-addProject{
       

@@ -2,6 +2,7 @@ import React, {  useState } from 'react'
 import { Link} from 'react-router-dom'
 import "./CompanyServices.scss"
 import message from '../../images/tabler_message.png';
+import vector from '../../images/Vector (2).png';
 
 
 export default function CompanyServices(props) {
@@ -41,28 +42,51 @@ return <>
 <div className='login-page '>
 
 <div>
-  <h2>Login to account</h2>
-  <p>Enter your number so there are no mistakes</p>
- 
-  <div className='signup-form'>
-  
-      <form>
-<label htmlFor="name-input">Full Name</label>
- <input type="text" placeholder='Enter Your Name' className='form-control' id='name-input' />
-        
- <label htmlFor="email-input">Email</label>
- <input type="email" placeholder='Enter Your Email' className='form-control' id='email-input' />
-
- <label htmlFor="location-input">Location</label>
- <input type="text" placeholder='Enter Your Location' className='form-control' id='location-input' />
-      </form>
-      
-      <div class="form-check">
-  <input class="form-check-input me-3" type="checkbox" value="" id="flexCheckDefault"/>
-  <label class="form-check-label check-lebal" for="flexCheckDefault">
-  I’ve read and agree to all the <span>Terms and Conditions</span>  about the application
-  </label>
+  <h2>Choose Your Services</h2>
+  <p>Choose up to 4 services</p>
+  <div className='services-page'>
+  <div className="container-fluid">
+    <div className="row ">
+<div className="col-md-4 ps-0  ">
+<div className="service" >
+<div className='d-flex flex-column gap-2' >
+  <img src={vector} alt="vector" />
+  <h3>interior Design</h3>
 </div>
+ 
+
+</div>
+</div>
+
+
+    </div>
+
+
+   
+  </div>
+   
+  
+
+ {[...Array(9)].map((star,i)=>{
+          const ratingValue= i+1;
+return(
+
+
+
+  <label>
+<input 
+type="checkbox"
+name='rating' 
+value={ratingValue} 
+maxLength={4}
+/>
+
+
+</label>
+)
+
+
+        })}
 
       
       <Link to='/home'>

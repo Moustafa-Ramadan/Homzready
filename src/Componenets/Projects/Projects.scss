@@ -33,6 +33,7 @@
        height: 45px;
        border-radius: 50%;
        background-color: #FFFFFF;
+       cursor: pointer;
         i{
            font-size: 27px;
            color: #06B2BB;
@@ -51,6 +52,9 @@
                 color: #000000;
                 font-weight: 500;
                 margin: 0 0 20px 0;
+            }
+            .design-info:hover{
+                color: #06B2BB;
             }
             span{
                 font-family: 'Poppins';

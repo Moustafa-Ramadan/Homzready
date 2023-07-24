@@ -59,6 +59,7 @@ left: -1%;
     .project{
        
 .image{
+    cursor: pointer;
     position: relative;
     width: 321.66px;
         height: 333px;
@@ -90,6 +91,7 @@ left: -1%;
         }
 
         .design-info{
+            cursor: pointer;
             text-align: left;
             font-style: Medium;
             font-size: 24px;
@@ -100,6 +102,9 @@ left: -1%;
             margin: 20px 0 20px 0;
             padding-left: 10px;
         }
+        .design-info:hover{
+                color: #06B2BB;
+            }
         span{
             font-family: 'Poppins';
             font-style: normal;
